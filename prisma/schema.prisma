@@ -1,0 +1,42 @@
+// ROMS — MySQL schema aligned with CS03_07 Database Design (`orders`, `order_items`).
+// The active database name/host comes only from DATABASE_URL in .env / .env.local (no hard-coded DSN).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+enum OrderStatus {
+  received
+  preparing
+  ready
+  completed
+}
+
+// Optional for admin "Table #" column: add `table_number Int? @map("table_number")` + migrate when your DD includes it.
+model Order {
+  orderId       String      @id @default(uuid()) @map("order_id")
+  trackingToken String      @unique @map("tracking_token") @db.VarChar(64)
+  orderStatus   OrderStatus @default(received) @map("order_status")
+  orderTotal    Decimal     @map("order_total") @db.Decimal(10, 2)
+  createdAt     DateTime    @default(now()) @map("created_at")
+  items         OrderItem[]
+
+  @@map("orders")
+}
+
+model OrderItem {
+  orderId    String  @map("order_id")
+  menuItemId String  @map("menu_item_id") @db.VarChar(64)
+  name       String  @db.VarChar(120)
+  quantity   Int
+  unitPrice  Decimal @map("unit_price") @db.Decimal(8, 2)
+  order      Order   @relation(fields: [orderId], references: [orderId], onDelete: Cascade)
+
+  @@id([orderId, menuItemId])
+  @@map("order_items")
+}
