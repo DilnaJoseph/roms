@@ -16,7 +16,7 @@
 
 ### Admin Panel
 ![Admin Dashboard](public/screenshot/admin-dashboard.png)
-![Admin Orders](public/screenshot/admin-orders.png)
+![Admin Orders](public/screenshot/admin-status.png)
 
 ---
 
@@ -294,7 +294,3 @@ National Institute of Technology, Calicut (NITC)
 | Devika S | B220256CS | devika_b220256cs@nitc.ac.in |
 
 ---
-
----
-
-<p align="center">Built with ❤️ by CS03_07 · NIT Calicut · 2026</p>
