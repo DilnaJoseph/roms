@@ -5,18 +5,18 @@
 ## 📸 Screenshots
 
 ### Customer Portal
-![Customer Menu](public/screenshots/customer-menu.png)
-![Customer Cart](public/screenshots/customer-cart.png)
+![Customer Menu](public/screenshot/customer-menu.png)
+![Customer Cart](public/screenshot/customer-cart.png)
 
 ### Kitchen Display
-![Kitchen Display](public/screenshots/kitchen-display.png)
+![Kitchen Display](public/screenshot/kitchen-display.png)
 
 ### Staff Dashboard
-![Staff Dashboard](public/screenshots/staff-dashboard.png)
+![Staff Dashboard](public/screenshot/staff-dashboard.png)
 
 ### Admin Panel
-![Admin Dashboard](public/screenshots/admin-dashboard.png)
-![Admin Orders](public/screenshots/admin-orders.png)
+![Admin Dashboard](public/screenshot/admin-dashboard.png)
+![Admin Orders](public/screenshot/admin-orders.png)
 
 ---
 
