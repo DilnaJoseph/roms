@@ -58,7 +58,7 @@ const MOCK_MENU: MenuItem[] = [
     description:
       "Toasted sourdough, slow-roasted tomatoes, basil, garlic, and extra-virgin olive oil.",
     price: 279,
-    image: "/dishes/roasted_tomato_bruschetta.png"
+    image: "/dishes/Roasted_Tomato_Bruschetta.png"
   },
   {
     id: "itm-003",
