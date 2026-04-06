@@ -280,17 +280,3 @@ Your app will be live at `https://your-project.vercel.app`
 Images in the `public/` folder are served automatically at `/dishes/filename.jpg`.
 
 ---
-
-## 👩‍💻 Team
-
-Developed as part of **CS2011E — Database Management Systems**
-National Institute of Technology, Calicut (NITC)
-
-| Name | Roll Number | Email |
-|---|---|---|
-| Dilna Mariya Joseph | B240170CS | dilna_b240170cs@nitc.ac.in |
-| Sanjita Bhaavya Ganesh | B240095CS | sanjita_b240095cs@nitc.ac.in |
-| Koneru Dharshini | B240215CS | koneru_b240215cs@nitc.ac.in |
-| Devika S | B220256CS | devika_b220256cs@nitc.ac.in |
-
----
