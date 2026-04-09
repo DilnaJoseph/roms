@@ -9,8 +9,6 @@
 ### Customer Portal
 <p>
   <img src="public/screenshot/customer-menu.png" width="48%" alt="Customer Menu"/>
-  &nbsp;
-  <img src="public/screenshot/customer-cart.png" width="48%" alt="Customer Cart"/>
 </p>
 
 ### Kitchen Display &nbsp;&nbsp;&nbsp; Staff Dashboard
@@ -28,12 +26,6 @@
 </p>
 
 </div>
-
-### 🔧 Admin Panel
-<p align="center">
-  <img src="public/screenshot/admin-dashboard.png" width="48%" />
-  <img src="public/screenshot/admin-status.png" width="48%" />
-</p>
 
 ---
 
